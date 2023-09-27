@@ -34,7 +34,7 @@ function Modal({ productId, closeModal }) {
             </div>
             <h3 className="text-2xl font-bold">Review</h3>
             <label htmlFor="title" className="font-semibold text-slate-100 mt-4 mb-2 block">Description</label>
-            <textarea onChange={(e) => setDescription(e.target.value)} value={description} className="textarea textarea-warning w-full" placeholder="Your thought about product..."></textarea>
+            <textarea onChange={(e) => setDescription(e.target.value)} value={description} className="text-gray-800 textarea textarea-warning w-full" placeholder="Your thought about product..."></textarea>
             <button className="btn btn-warning mt-6 w-full" onClick={() => makeReview()}>Review</button>
         </div>
     </div>;
