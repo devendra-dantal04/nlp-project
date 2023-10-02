@@ -57,7 +57,14 @@ const page = () => {
             </div>
         </div>
 
-        {isModal && <Modal productId={id} closeModal={closeModal} />}
+        {isModal &&
+            (
+                <div className="absolute top-0 left-0 w-full h-[100vh]">
+                    <Modal productId={id} closeModal={closeModal}
+                    />
+                </div>
+            )
+        }
 
     </>
 }

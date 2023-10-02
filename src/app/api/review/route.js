@@ -41,7 +41,6 @@ export async function GET(req) {
 
         }
 
-
         return new Response(JSON.stringify({ reviews, reviewCounts }), { status: 200 })
 
     } catch (error) {
