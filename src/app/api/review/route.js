@@ -26,11 +26,6 @@ export async function GET(req) {
         if (reviews.length > 0) {
             const result = await Review.aggregate([
                 {
-                    $match: {
-                        productId: productId
-                    }
-                },
-                {
                     $group: {
                         _id: "$reviewTag",
                         count: { $sum: 1 }
