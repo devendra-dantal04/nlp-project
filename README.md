@@ -16,7 +16,7 @@ This project is a web application that allows users to add and review products. 
 - NLP: Python with NLTK
 
 ## Demo
-[Dashboard](./images/dashboard.jpg)
+![Dashboard](./images/dashboard.jpg)
 
 ## Author
 `Devendra Dantal`
